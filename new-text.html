@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BJ's new website</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">    
+  </head>
+  <body>
+    <header>
+      <div id="nav">
+        <div class="container">
+          <ul class="menu">
+            <li><a href="#about_me">關於我</a></li>
+            <li><a href="#my_future">未來計畫</a></li>
+            <li><a href="#contact_me">聯絡我</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="content">
+      <div class="container">
+        <section id="about_me">
+          <div id="my-info">
+            <table>
+              <tr>
+                <th>姓名:</th>
+                <td>Mr.Math</td>
+              </tr>
+              <tr>
+                <th>學歷:</th>
+                <td>National Taiwan United Shool</td>
+              </tr>
+              <tr>
+                <th>擅長領域:</th>
+                <td>Website prgramming Design</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section id="my_future">
+          <div class="future">
+            <h1>未來計劃</h1>
+            <p>為期半年的轉職計畫，及對自己的期許和目標</p>
+          </div>
+          <div id="my_future_gallery">
+            <div class="item">
+              <img src="img/full-stack-web-developer.png" alt="full-stack" width="400" height="400" >
+              <div class="item-info">
+                <p><b>努力</b>達成“轉職成全端工程師”</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/English.jpg" alt="english-learning" width="400" height="400" >
+              <div class="item-info">
+                <p><b>學習</b>更多語言幫助成長及拓展專業領域</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/world.jpg" alt="see the world" width="400" height="400" >
+              <div class="item-info">
+                <p><b>期望</b>未來能更了解這個世界拓展視野</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact_me">
+          <div class="container_row">
+            <div class="row">
+              <h3 class="title">
+                <span>聯繫我吧</span>
+              </h3>
+              <hr />
+              <p>歡迎異業結合，共同創作出不平凡的世界</p>
+              <hr />
+              <div class="footer_buttom">
+                <div class="buttom">
+                  <a href="https://www.facebook.com" target="_blank">
+                    <img src="img/facebook-logo.png" alt="facebook.com" style="width:80px;height:80px;border-radius:10px">
+                  </a>
+                </div>
+                <div class="buttom">
+                  <a href="https://www.instagram.com" target="_blank">
+                    <img src="img/instagram-logo.png" alt="instagram.com" style="width:80px;height:80px;border-radius:10px">
+                  </a>
+                </div>
+                <div class="buttom">
+                  <a href="https://github.com" target="_blank">
+                    <img src="img/github-logo.png" alt="github.com" style="width:80px;height:80px;border-radius:10px">
+                  </a>
+                </div>  
+              </div>
+            </div>
+            <div class="form_row">
+              <form>
+                <div class="group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name">
+                </div>
+                <div class="group">            
+                  <label for="email">Email</label>
+                  <input type="email" name="email">
+                </div>
+                <div class="group">
+                  <label for="name">Message</label>
+                  <textarea name="message" row="5" cols="50"></textarea>
+                </div>
+                <input type="submit" onclick="alert( '確認內容無誤，請按確定！' )" value="送出訊息">
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>   
+  </body>
+</html>
+
