@@ -72,11 +72,11 @@ section {
   top: 0;
 }
 
-table {
+#my-info {
   position: absolute;
-  background-color: #fff;
   top: 200px;
   left: 50%;
+  background-color: #fff;
   padding: 50px;
   opacity: 0.5;
   outline: 4px double #fff;
@@ -84,6 +84,8 @@ table {
   text-align: left;
   letter-spacing: 0.5px;
 }
+
+
 
 #my_future {
   background-color: #f6f6f6;
@@ -221,6 +223,14 @@ hr {
   display: inline-block;
 }
 
+.form_row input[type=submit] {
+  border: 1px solid #2b2b2b;
+  font-weight: 700;
+  width: 100%;
+  color: #989696;
+  background-color: white;
+}
+
 @media screen and (min-width: 768px) {
   .menu-button, .menu-button-checkbox {
     display: none;
@@ -237,7 +247,7 @@ hr {
     float: right;
     font-size: 25px;
     line-height: 40px;
-    color: white;
+    color: black;
     background: transparent;
     padding: 0 15px;
     border: 0;
@@ -252,7 +262,7 @@ hr {
     top: 40px;
     width: 150px;
     height: 100%;
-    background: red;
+    background: white;
   }
 
   .menu li {
@@ -271,6 +281,25 @@ hr {
 
   .menu-button-checkbox:checked ~ .menu {
     display: block;
+  }
+
+  #my-info {
+    top: 150px;
+    left: 20px;
+    padding: 10px;
+  }
+
+  .item {
+    width: auto;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .footer_buttom {
+    text-align: center;
+    padding-left: 50px;
   }
 
 
